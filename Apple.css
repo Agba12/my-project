@@ -1,0 +1,369 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.top{
+	height: 150px;
+	background-color: black;
+}
+.top1{
+	background-color: black;
+	display: block;
+	height: 50px;
+}
+.top2{
+	background-color: blue;
+	display: block;
+	height: 25px;
+	text-align: center;
+	padding: 12px 0;
+}
+.top .top2 a{
+	text-decoration: none;
+	color: white;
+}
+.top3{
+	background-color: white;
+	display: block;
+	height: 25px;
+	text-align: center;
+	padding: 12px 0;
+}
+.top .top3 a{
+	text-decoration: none;
+}
+
+.box2{
+	height: 600px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.box2 a{
+	text-decoration: none;
+	color: white;
+	
+}
+.box2 .fone{
+	font-size: 60px;
+	font-weight: bold;
+}
+.box2 .lol{
+	font-size: 30px;
+}
+.box2 .range{
+	color: gray;
+	font-size: 19px;
+}
+.box2 .box21 {
+	padding-top: 20px;
+}
+.box2 .box21 a{
+	font-size: 23px;
+	color: blue;
+}
+.box2 .box21 a:hover{
+	border-bottom: 3px solid blue;
+}
+.box3{
+	height: 500px;
+	background-color: white;
+	color: white;
+	text-align: center;
+	padding: 40px;
+	cursor: pointer;
+}
+.box3 a{
+	text-decoration: none;
+	color: black;
+}
+.box3 .fone11{
+	font-size: 60px;
+	font-weight: bold;
+}
+.box3 .rite{
+	font-size: 30px;
+}
+.box3 .range2{
+	color: gray;
+	font-size: 19px;
+}
+.box3 .box31 {
+	padding-top: 20px;
+}
+.box3 .box31 a{
+	font-size: 23px;
+	color: blue;
+}
+.box3 .box31 a:hover{
+	border-bottom: 3px solid blue;
+}
+
+	/* end of box 3 styling */
+		
+	/* beginning of box 4 styling */
+.box4{
+	height: 500px;
+	background-color: black;
+	color: white;
+	padding: 40px;
+	position: relative;
+	cursor: pointer;
+}
+
+.box4 .down{
+	position: absolute;
+	bottom: 0;
+	right: 40%;
+	padding: 50px;
+}
+.box4 .down a{
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+}
+.box4 .down a:hover {
+	border-bottom: 2px solid white;
+}
+.down .super a{
+	font-size: 12px;
+	border: 1px solid white;
+}
+.down .super a:hover{
+	border-bottom: none;
+}
+/* end of box 4 styling */
+		
+	/* beginning of box 5 styling */
+.box5{
+	height: 600px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	display: flex;
+}
+
+.box5 section{
+	margin: 6px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+.box5 .box51{
+	font-size: 43px;
+	font-weight: bold;
+}
+.box5 .box51 p{
+	padding-bottom: 0;
+	margin-bottom: 10px;
+}
+.box5 .box51 .shop, .box5 .box52 .box522{
+	font-size: 19px;
+}
+.shop a, .box5 .box52 .box522 a{
+	text-decoration: none;
+	font-weight: normal;
+}
+.shop a:hover, .box5 .box52 .box522 a:hover{
+	border-bottom: 1px solid blue;
+}
+.box5 .box52{
+	font-size: 23px;
+	padding-top: 100px;
+}
+.box5 .box52 p{
+	margin-bottom: 10px;
+}
+/* end of box 5 styling */
+
+/* beginnin of box 6 styling */
+.box6{
+	height: 600px;
+	background-color: white;
+	color: white;
+	text-align: center;
+	display: flex;
+}
+.box6 section{
+	margin: 6px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+.box6 .box61{
+	font-size: 23px;
+	padding-top: 80px;
+}
+.box6 .box61 .box611, .box6 .box62 .box622{
+	font-size: 19px;
+}
+.box6 .box61 .box611 a{
+	text-decoration: none;
+	font-weight: normal;
+	color: white;
+}
+ .box6 .box61 .box611 a:hover{
+	border-bottom: 1px solid white;
+}
+.box6 .box61 p{
+	margin-bottom: 10px;
+}
+.box6 .box61 .super1 a{
+	font-size: 12px;
+	border: 1px solid white;
+}
+.box6 .box61 .super1 a:hover{
+	border-bottom: none;
+}
+.box6 .box62{
+	font-size: 43px;
+	font-weight: bold;
+}
+.box6 .box62 p{
+	margin-bottom: 10px;
+}
+.box6 .box62 .box621{
+	font-size: 18px;
+}
+.box6 .box62 .box622 a{
+	text-decoration: none;
+	font-weight: normal;
+}
+.box6 .box62 .box622 a:hover{
+	border-bottom: 1px solid blue;
+}
+/* end of box 6 styling */
+
+/* beginnin of box 7 styling */
+.box7{
+	height: 600px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	display: flex;
+}
+.box7 section{
+	margin: 6px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+.box7 .box71, .box7 .box72{
+	font-size: 23px;
+	padding-top: 30px;
+}
+.box7 .box71 .box711, .box7 .box72 .box721{
+	font-size: 43px;
+	font-weight: bold;
+}
+.box7 .box71 p, .box7 .box72 .box721{
+	margin-bottom: 10px;
+}
+.box7 .box71 .box712 a, .box7 .box72 .box722 a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.box7 .box71 .box712 a:hover, .box7 .box72 .box722 a:hover{
+	border-bottom: 1px solid blue;
+}
+/* end of box 7 styling */
+
+/* beginnin of box 8 styling */
+.box8{
+	height: 800px;
+	background-color: #f2f2f2;
+	color: black;
+	color: #909090;
+}
+.box8 .in8{
+	margin: 0 190px;
+	font-size: 13px;
+}
+.box8 .in8 .box81{
+	border-bottom: 2px solid #e0e0e0;
+	padding: 20px 0 0 0;
+}
+.box8 .in8 .box81 p{
+	margin: 0 0 15px 0;
+}
+.box8 .in8 .box83{
+	display: flex;
+}
+.box8 .in8 .box83 .box831 p{
+	margin-right: 66px;
+	line-height: 25px;
+}
+.box8 .in8 .box83 .box832 p,.box8 .in8 .box83 .box833 p,.box8 .in8 .box83 .box834 p,.box8 .in8 .box83 .box835 p{
+	margin-right: 65px;
+	line-height: 25px;
+}
+.box8 .in8 .box83 .box831 a,.box8 .in8 .box83 .box832 a,.box8 .in8 .box83 .box833 a,.box8 .in8 .box83 .box834 a,.box8 .in8 .box83 .box835 a{
+	text-decoration: none;
+	color: #585858;
+}
+.box8 .in8 .box83 .box831 a:hover, .box8 .in8 .box83 .box832 a:hover,.box8 .in8 .box83 .box833 a:hover,.box8 .in8 .box83 .box834 a:hover,.box8 .in8 .box83 .box835 a:hover{
+	border-bottom: 1px solid black;
+	color: black;
+}
+.box8 .box84 .box841 a{
+	text-decoration: none;
+}
+.box8 .box84 .box841 a:hover{
+	border-bottom: 1px solid blue;
+}
+.box8 .in8 .box85 .box851{
+	display: flex;
+	padding:0;
+}
+.box8 .in8 .box85 .box851 >div:last-child{
+	margin-left: auto;
+}
+.box8 .box85 .box851 a{
+	text-decoration: none;
+	color:#585858;
+}
+.box8 .box85 .box851 a:hover{
+	border-bottom: 1px solid black;
+	color: black;
+}
+/* responsive css*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	
+	.box8{
+		height: 90%;
+	}
+	.box8 .in8{
+		margin: 0 15px;
+		font-size: 17.5px;
+	}
+	.box8 .in8 .box83 .box831 p{
+	margin-right: 27spx;
+	line-height: 30px;
+	}
+	.box8 .in8 .box83 .box832 p{
+	margin-right: 10px;
+	line-height: 30px;
+	}
+	.box8 .in8 .box83 .box833 p{
+		margin-right: 10px;
+		line-height: 30px;
+	}
+	.box8 .in8 .box83 .box834 p{
+		margin-right: 9px;
+		line-height: 30px;
+	}
+	.box8 .in8 .box83 .box835 p{
+		margin-right: 0;
+		line-height: 30px;
+	}
+	.box8 .in8 .box85 .box851{
+	flex-direction: column;
+	}
+	
+}
+
+
